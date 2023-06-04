@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+h1{
+    font-size: 10vh;
+    padding-left: 2vw;
+    padding-top: 3vh;
+}
+h2{
+    font-size: 5vh;
+    padding-left: 1vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+.formUsuario{
+    padding-left: 1vw;
+    max-width: 50vw;
+
+}
+.formularioUsuario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    text-align: center;
+    margin-bottom: 1vh;
+}
+
+.botones{
+    margin-left: 1vw;
+    max-width: 50vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+button{
+    min-width: 10vw;
+    max-width: 15vw;
+    height: 5vh;
+    background-color: rgb(156, 126, 126);
+    color: white;
+    border: 1px 1px solid black;
+}
+
+.divPrueba{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+}
